@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/course_bg3">
+
+    <Button
+        android:id="@+id/Enew_main_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/button2"
+        android:text="Creat New"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/Eyours_main_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/button1"
+        android:text="Load Yours"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/Eother_main_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/button2"
+        android:text="Load The Other"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/Egrade_main_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/button1"
+        android:text="Query Score"
+        android:textColorHint="#ffffff" />
+</RelativeLayout>

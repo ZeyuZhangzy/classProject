@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/course_bg2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#11B7F3">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:background="@mipmap/backone"
+            android:onClick="Back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="平均分/绩点"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="总学分"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/credit"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="总数目"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:id="@+id/sum"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="平均分"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:id="@+id/average"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绩点"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:id="@+id/GPA"
+        />
+
+
+</LinearLayout>

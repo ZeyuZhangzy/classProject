@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/course_bg2"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#11B7F3">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:background="@mipmap/backone"
+            android:onClick="Back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="查询成绩"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="学号:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:hint="请输入您的学号"
+            android:background="#00000000"
+            android:textColor="#000"
+            android:textCursorDrawable="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="密码:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:hint="请输入教务处密码"
+            android:background="#00000000"
+            android:textColor="#000"
+            android:textCursorDrawable="@null"/>
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="query"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button1"
+        android:text="登录"
+        android:textSize="20sp"/>
+
+</LinearLayout>

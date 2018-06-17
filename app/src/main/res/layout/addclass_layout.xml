@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/course_bg2">
+
+
+    <Button
+        android:id="@+id/back_addclass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+
+    <EditText
+        android:id="@+id/begin_addclass_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入课程在第几节课开始(数字)"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+    <EditText
+        android:id="@+id/whichday_addclass_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入课程在哪一天(小写英文)"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/name_addclass_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入课程名"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/place_addclass_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入上课地点"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/lasts_addclass_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入课程有几节(数字)"
+        android:gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/add_addclass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addclass"
+        android:layout_below="@+id/add_addclass_button"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
